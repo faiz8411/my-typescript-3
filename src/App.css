@@ -13,26 +13,18 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Card{
+  background-color: darkcyan;
+  border-radius: 0.5rem;
+  padding: 00.5rem;
+  margin: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item{
+  background-color: rgb(177, 232, 27);
+    border-radius: 0.5rem;
+    padding: 00.5rem;
+    margin: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem black;
 }
